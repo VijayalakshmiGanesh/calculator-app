@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  left: 50%;
+  top: 50%;
+  margin: 0 auto;
+  width: 46vh;
+  background-color: #d6d6d6;
+  border: 2px solid #d6d6d6;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+button {
+  height: 10vh;
+  width: 15vh;
+  border: 2px solid rgba(215, 215, 215, 1);
+  font-size: 33px;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 0.9rem;
+  color: black;
+}
+#clear,
+#backspace {
+  background-color: rgba(77, 210, 240, 0.5);
+}
+
+#operator,
+#operator-result {
+  background-color: rgba(21, 120, 232, 0.76);
+  border-radius: 0.9rem;
+}
+input {
+  border: 5px solid #d6d6d6;
+  height: 13vh;
+  width: 44.5vh;
+  font-size: 3rem;
+  text-align: right;
+  background-color: rgba(102, 102, 102, 0.5);
+  border-radius: 1rem 1rem 0rem 0rem;
+}
